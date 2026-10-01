@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>curriculo</title>
+</head>
+<body>
+    
+</body>
+</html>
+    <div class="curriculo">
+    
+        <div class="cabecalho">
+    
+            <img src="imagens/joao.jpg" class="foto" alt="Foto de João da Silva">
+    
+            <h1 id="nome">João da Silva</h1>
+    
+            <p>Desenvolvedor Web</p>
+    
+        </div>
+    
+        <h2>Sobre mim</h2>
+    
+        <p>
+            Sou estudante de Desenvolvimento de Sistemas,
+            interessado em tecnologia e desenvolvimento de sites.
+        </p>
+    
+        <h2>Informações pessoais</h2>
+    
+        <p class="informacao">
+            <img src="icones/email.png" class="icone">
+            joao@email.com
+        </p>
+    
+        <p class="informacao">
+            <img src="icones/telefone.png" class="icone">
+            (11) 99999-9999
+        </p>
+    
+        <p>São Paulo - SP</p>
+    
+        <h2>Formação</h2>
+    
+        <p>
+            <strong>Técnico em Desenvolvimento de Sistemas</strong><br>
+            ETEC São Paulo - 2024
+        </p>
+    
+        <h2>Experiência profissional</h2>
+    
+        <p>
+            <strong>Tech Solutions</strong><br>
+            Auxiliar de Desenvolvimento<br>
+            2024 - 2025
+        </p>
+    
+        <h2>Habilidades</h2>
+    
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Trabalho em equipe</li>
+            <li>Comunicação</li>
+        </ul>
+    
+        <h2>Contato</h2>
+    
+        <p>
+            Instagram:
+            <a href="https://www.instagram.com/" target="_blank">
+                Meu Instagram
+            </a>
+        </p>
+    
+        <button id="botao" onclick="modal.showModal()">
+            Enviar informações de contato
+        </button>
+    
+    </div>
+    
+    
+    <dialog id="modal">
+    
+        <h2>Informações de contato</h2>
+    
+        <form method="dialog">
+    
+            <label>Nome Completo:</label>
+            <input type="text" required>
+    
+            <br><br>
+    
+            <label>Link para o Instagram:</label>
+            <input type="url" placeholder="https://instagram.com/usuario" required>
+    
+            <br><br>
+    
+            <label>Número do WhatsApp:</label>
+            <input type="tel" placeholder="(11) 99999-9999" required>
+    
+            <div class="botoes">
+    
+                <button class="enviar" type="submit">
+                    Enviar
+                </button>
+    
+                <button class="fechar" type="submit">
+                    Fechar
+                </button>
+    
+            </div>
+    
+        </form>
+    
+    </dialog>
+    
+    </body> </html>
